@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: rgb(246, 194, 252);
+}
+.container{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: rgb(215, 26, 184);
+    min-height: 100px;
+    border-radius: 10px;
+}
+.myHead{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 23px 34px;
+
+}
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#taskid{
+    width: 75%;
+    height: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+}
+#taskid:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+#push{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color:#cae0f8;
+    border: none;
+    color: #0d75ec;
+    outline: none;
+    cursor: pointer;
+}
+#tasks{
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+.task{
+    background-color: rgb(131, 21, 146);
+    color: wheat;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid rgb(255, 80, 255);
+    cursor: pointer;
+}
+.task span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    color: black;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
